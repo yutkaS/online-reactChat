@@ -1,0 +1,41 @@
+.message_container{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.messages{
+    width: 500px;
+    height: 500px;
+    background: grey;
+    overflow: scroll;
+}
+
+input{
+    width: 440px;
+    margin: 2px;
+}
+
+.info{
+    width: 150px;
+    height: 500px;
+}
+
+button{
+    margin: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+.message {
+    display: flex;
+    margin: 5px;
+}
+

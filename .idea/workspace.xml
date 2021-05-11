@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e3b6d50-1949-4535-95a7-1188a306766e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sMCEvyHYtaNlK7eIZ4SOxlgoM2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/pages/Chat" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yutka\projects\newReactChat" />
+      <recent name="C:\Users\yutka\projects\newReactChat\back" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yutka\projects\newReactChat\front\src\pages\Chat" />
+      <recent name="C:\Users\yutka\projects\newReactChat" />
+      <recent name="C:\Users\yutka\projects\newReactChat\my-app\src" />
+      <recent name="C:\Users\yutka\projects\newReactChat\my-app\src\back" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e3b6d50-1949-4535-95a7-1188a306766e" name="Default Changelist" comment="" />
+      <created>1620672963303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620672963303</updated>
+      <workItem from="1620672966095" duration="1444000" />
+      <workItem from="1620674798916" duration="17264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1150" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620683508988">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1150" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1768.0.1179.641/0.0.1920.1050@0.0.1920.1050" timestamp="1620683508988" />
+    <state x="1150" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1768.0.1414.770/0.0.1920.1050@0.0.1920.1050" timestamp="1620673138024" />
+    <state x="237" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1620688293580">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="237" y="229" width="672" height="678" key="search.everywhere.popup/-1768.0.1179.641/0.0.1920.1050@0.0.1920.1050" timestamp="1620688293580" />
+  </component>
+</project>
