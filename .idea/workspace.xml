@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e3b6d50-1949-4535-95a7-1188a306766e" name="Default Changelist" comment="" />
+    <list default="true" id="6e3b6d50-1949-4535-95a7-1188a306766e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,17 +40,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/pages/Chat" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yutka\projects\newReactChat" />
-      <recent name="C:\Users\yutka\projects\newReactChat\back" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yutka\projects\newReactChat\front\src\pages\Chat" />
       <recent name="C:\Users\yutka\projects\newReactChat" />
       <recent name="C:\Users\yutka\projects\newReactChat\my-app\src" />
       <recent name="C:\Users\yutka\projects\newReactChat\my-app\src\back" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yutka\projects\newReactChat" />
+      <recent name="C:\Users\yutka\projects\newReactChat\back" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -61,7 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1620672963303</updated>
       <workItem from="1620672966095" duration="1444000" />
-      <workItem from="1620674798916" duration="17264000" />
+      <workItem from="1620674798916" duration="17315000" />
+      <workItem from="1620706611405" duration="3026000" />
+      <workItem from="1620755239741" duration="8253000" />
     </task>
     <servers />
   </component>

@@ -1,14 +1,33 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {Register} from './pages/Register';
 import {Chat} from './pages/Chat';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 
 const App = () => {
-    if (!localStorage.user) return <Register/>
-    else return <Chat/>
+    return (
+        <Router>
+            <div>
+                <hr />
+                <Switch>
+                    <Route exact path="/">
+                        <Register />
+                    </Route>
+                    <Route path="/chat">
+                        <Chat />
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
+    );
 }
 
 

@@ -1,15 +1,17 @@
-import React from 'react'
+import React, {useCallback} from 'react'
 import {Button} from "../../components/Button";
 import {Input} from "../../components/Input";
 import {UsersList} from "../../components/UserList";
 import {MessagesList} from "../../components/MessagesList";
+import {Initialization} from "../../API/Initialization";
+
 import './index.css'
 
 
+if (!localStorage.user) window.location.replace('http://localhost:3000/')
+const storage = JSON.parse(localStorage.user);
 
-const storage = localStorage.user ? JSON.parse(localStorage.user) : null
-
-const socket = new WebSocket(`ws://localhost:8080`);
+const socket = Initialization();
 
 export const Chat = () => {
 
@@ -42,6 +44,10 @@ export const Chat = () => {
         )
     }
 
+    const send = useCallback((obj)=>{
+        socket.send(JSON.stringify(obj))
+    }, [socket])
+
     return (
         <body>
         <div className="message_container">
@@ -51,11 +57,11 @@ export const Chat = () => {
                     <p>select chat</p>
 
                     <Button className="before_button"
-                            onClick={() => socket.send(JSON.stringify({changeChat: 'before',}))}
+                            onClick={() => send({changeChat: 'before',})}
                             text={'JS (before ES6)'}/>
 
                     <Button className="after_button"
-                            onClick={() => socket.send(JSON.stringify({changeChat: 'after',}))}
+                            onClick={() => send({changeChat: 'after',})}
                             text={'JS (after ES6)'}/>
                 </div>
                 <div className="users_block">
@@ -70,9 +76,9 @@ export const Chat = () => {
                 <div className="messages">
                     <MessagesList messages={messages}/>
                 </div>
-                <Input onChange={(e) => message = e.target.value}/>
+                <Input onChange={(e) => message = e}/>
                 <Button className={'sendButton'} text={'send'}
-                        onClick={() => socket.send(JSON.stringify({addMessage: {message: message,}}))}/>
+                        onClick={() => send({addMessage: {message: message,}})}/>
             </div>
         </div>
         </body>
